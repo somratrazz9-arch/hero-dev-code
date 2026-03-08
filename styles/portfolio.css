@@ -3,18 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* shared style */
-.font-open-sans {
+
+.font-open-sans{
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
 }
+
 .logo h2{
     font-size: 45px;
     font-weight: 900;
 }
+
 .color-orange{
     color: #FD6E0A;
 }
+
 .btn{
     background-color: #FD6E0A;
     border: none;
@@ -25,21 +29,28 @@
     color: white;
     cursor: pointer;
 }
+
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
+
 .section-heading h2{
     font-size: 35px;
     margin-bottom: 30px;
 }
+
 .section-heading p{
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 30px;
     color: #757575;
 }
+
+
 /* main style */
+
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
@@ -47,6 +58,7 @@ header{
     padding-top: 50px;
     background-repeat: no-repeat;
 }
+
 nav{
     width: 71%;
     max-width: 1140px;
@@ -55,17 +67,20 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
 nav .menu{
     display: flex;
     list-style-type: none;
     gap: 51px;
     align-items: center;
 }
+
 nav .menu a{
     font-size: 20px;
     color: #474747;
     text-decoration: none;
 }
+
 #banner{
     margin: 47px 38px 0 230px;
     display: flex;
@@ -83,28 +98,30 @@ nav .menu a{
     color: #474747;
     margin-bottom: 5px;
 }
+
 #banner .banner-content h1{
     font-size: 85px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 20px;
 }
+
 #banner .banner-content p{
     font-size: 18px;
     color: #757575;
     line-height: 30px;
     margin-bottom: 30px;
 }
-#about .about-container > p{
-    margin-bottom: 30px;
-}
+
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;   
 }
+
 #about{
     padding-top: 130px;
 }
+
 #about .about-container{
     max-width: 1140px;
     margin: 0 auto;
@@ -112,16 +129,61 @@ nav .menu a{
     background-color: #FFF8F3;
     padding: 131px 156px;
 }
+
+#about .about-container > p{
+    margin-bottom: 30px;
+}
+
 #about .about-container .about-info{
     display: flex;
     justify-content: space-around;
 }
+
 .about-info .info-card{
     font-size: 20px;
     line-height: 30px;
     color: #757575;
 }
+
 .about-info .info-card h4{
     font-size: 20px;
     color: #181818;
+}
+
+#skills{
+    padding-top: 130px;
+}
+
+#skills .skills-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#skills .skills-container .skill-box{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box .skill-card{
+    padding: 30px;
+    /* border: 1px solid red; */
+    box-shadow: 0 6px 50px 0 #000000;
+    max-width: 267px;
+}
+
+.skill-card img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
 }
